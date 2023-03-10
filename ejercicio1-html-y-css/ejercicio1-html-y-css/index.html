@@ -8,6 +8,22 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <div>
+        <form action="Registro" method="post">
+            <h1>Login</h1>
+            <label for="email">Email</label><br>
+            <input type="email" name="user_mail"><br>
+            <label for="password">Password</label><br>
+            <input type="password" name="password" value="Incorrecto"><br>
+            <label for="genero">Genero</label><br>
+            <select name="genero" id="lang">
+                <option value="Hombre">Hombre</option>
+                <option value="Mujer">Mujer</option>
+            </select><br>
+            <input type="checkbox" name="seleccion" value="Acepto los termimos">
+            <label>Acepto los termimos</label><br>
+            <button type="submit">Ingresar</button>
+        </form>
+    </div>
 </body>
 </html>
