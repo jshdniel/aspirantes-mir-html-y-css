@@ -9,22 +9,27 @@
 </head>
 <body>
     <div>
-        <form action="Registro" method="post">
+        <form>
             <h1>Login</h1>
             <label for="email">Email</label>
-            <input type="email" name="user_mail" class="input100"><br><br>
+            <input type="email" name="user_mail" class="input-field"><br><br>
             <label for="password">Password</label>
-            <input type="password" name="password" value="Incorrecto" class="input100"><br><br>
+            <input type="password" name="password" value="Incorrecto" class="input-field"><br><br>
             <label for="genero">Genero</label>
-            <select name="genero" id="lang" class="input100">
+            <select name="genero" id="lang" class="input-field">
                 <option value="Hombre">Hombre</option>
                 <option value="Mujer">Mujer</option>
-            </select><br><br>
-            <input type="checkbox" name="seleccion" value="Acepto los termimos">
-            <label>Acepto los termimos</label><br>
-            <p align="right">
+            </select><br>
+            <div>
+                <br>
+                <input type="checkbox" name="seleccion" value="Acepto los termimos">
+                <label>Acepto los términos</label>
+                <br>
+                <br>
+            </div>
+            <div>
                 <button type="submit">Ingresar</button>
-            </p>
+            </div>
         </form>
     </div>
 </body>

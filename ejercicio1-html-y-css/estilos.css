@@ -1,7 +1,10 @@
 h1 {
-    color: #eef115;
+    color: #111111;
 }
 
+h2 {
+    color: #141414;
+}
 body {
-    background-color: rgb(122, 110, 95);
+    background-color: #c2cfc4;
 }
